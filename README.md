@@ -1,4 +1,4 @@
-# Factorizare cu algoritmul lui Shor
+# Algoritmul lui Shor - factorizarea numerelor întregi
 
 Acest proiect demonstrează implementarea și utilizarea **algoritmului lui Shor** pentru factorizarea numerelor întregi folosind Qiskit **0.42.1** și simulatorul local Aer. 
 
