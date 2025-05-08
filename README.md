@@ -5,7 +5,7 @@ Acest proiect demonstrează implementarea și utilizarea **algoritmului lui Shor
 ## Obiective
 
 - Ilustrarea avantajului exponențial al calculului cuantic în fața celui clasic.  
-- Demonstrarea pașilor algoritmului lui Shor: alegerea numărului _r_, estimarea cuantică a perioadei, calcului factorilor primi.  
+- Demonstrarea pașilor algoritmului lui Shor: alegerea numărului _r_, estimarea cuantică a perioadei, calculul factorilor primi.  
 
 ## Compatibilitate și limitări
 
