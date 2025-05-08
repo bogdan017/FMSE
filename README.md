@@ -15,7 +15,7 @@ Acest proiect demonstrează implementarea și utilizarea **algoritmului lui Shor
 qiskit              0.42.1
 qiskit-terra        0.23.3   # ultimele versiuni compatibile cu Shor (algoritmul este considerat deprecated din versiunea 0.22.0)
 qiskit-aer          0.12.0
-qiskit-ibm-provider 0.5.0    # doar pentru configurări de backend, nu pentru Shor pe hardware
+qiskit-ibm-provider 0.5.0    # doar pentru configurări de backend, nu pentru aplicarea algoritmului lui Shor pe hardware
 ```
 
 Importurile necesare pentru rularea codului sunt: 
