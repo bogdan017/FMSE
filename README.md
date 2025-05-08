@@ -19,23 +19,29 @@ qiskit-ibm-provider 0.5.0    # doar pentru configurări de backend, nu pentru ap
 ```
 
 Importurile necesare pentru rularea codului sunt: 
+
+```text
 from qiskit import Aer
 from qiskit.algorithms import Shor
 from qiskit.utils import QuantumInstance
+```
 
-iar algoritmul propriu zis este următorul:
+Iar algoritmul propriu zis este următorul:
 
+```text
 backend = Aer.get_backend("aer_simulator")
 qi = QuantumInstance(backend, shots=1024)
 shor = Shor(quantum_instance=qi)
 N=21
 result = shor.factor(N)
 print("Factorii lui",N, "sunt:", result.factors)
-
+```
 O simpla rulare în consolă a fisierului ce conține algoritmul, cu comanda **python3 quantum_factorization.py** va avea următorul rezultat:
 
+```text
 The Shor class is deprecated as of Qiskit Terra 0.22.0 and will be removed ...
 
 Factorii lui 21 sunt: [[3, 7]]
+```
 
 Warning-ul afișat este legat de compatibilitatea discutată anterior, algoritmul fiind eliminat din versiunile noi de Qiskit ≥ 1.0.
